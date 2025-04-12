@@ -1,0 +1,8 @@
+.dart_tool/
+
+.vscode/
+bin/
+.dart_tool/
+doc/
+pubspec.lock
+test_report.md
