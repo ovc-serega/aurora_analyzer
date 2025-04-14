@@ -1,0 +1,138 @@
+aurora_packages:
+  # OMP plugins
+  - name: camera_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter/-/tree/stable/packages/camera_aurora
+    original_package: camera
+
+  - name: file_selector_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter/-/tree/stable/packages/file_selector_aurora
+    original_package: file_selector
+
+  - name: image_picker_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter/-/tree/stable/packages/image_picker_aurora
+    original_package: image_picker
+
+  - name: path_provider_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter/-/tree/stable/packages/path_provider_aurora
+    original_package: path_provider
+
+  - name: shared_preferences_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter/-/tree/stable/packages/shared_preferences_aurora
+    original_package: shared_preferences
+
+  - name: url_launcher_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter/-/tree/stable/packages/url_launcher_aurora
+    original_package: url_launcher
+
+  - name: video_player_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter/-/tree/stable/packages/video_player_aurora
+    original_package: video_player
+
+  - name: webview_flutter_aurora
+    url: sdk
+    original_package: webview_flutter_aurora
+
+  # community plugins
+  - name: audioplayers_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/audioplayers_aurora
+    original_package: audioplayers
+
+  - name: file_manager
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/file_manager
+    original_package: file_manager
+
+  - name: flutter_keyboard_visibility_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_keyboard_visibility_aurora
+    original_package: flutter_keyboard_visibility
+
+  - name: flutter_libserialport_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_libserialport_aurora
+    original_package: flutter_libserialport
+
+  - name: flutter_local_notifications_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_local_notifications_aurora
+    original_package: flutter_local_notifications
+
+  - name: flutter_reactive_ble_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_reactive_ble_aurora
+    original_package: flutter_reactive_ble
+
+  - name: flutter_secure_storage_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_secure_storage_aurora
+    original_package: flutter_secure_storage
+
+  - name: geoclue_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/geoclue_aurora
+    original_package: geoclue
+
+  - name: geolocator_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/geolocator_aurora
+    original_package: geolocator
+
+  - name: objectbox_flutter_libs_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/objectbox_flutter_libs_aurora
+    original_package: objectbox_flutter_libs
+
+  - name: pdfrx_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pdfrx_aurora
+    original_package: pdfrx
+
+  - name: flutter_file_picker_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_file_picker_aurora
+    original_package: file_picker
+
+  - name: flutter_image_picker_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_image_picker_aurora
+    original_package: image_picker
+
+  - name: flutter_selector_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_selector_aurora
+    original_package: file_selector
+
+  - name: battery_plus_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/battery_plus_aurora
+    original_package: battery_plus
+
+  - name: connectivity_plus_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/connectivity_plus_aurora
+    original_package: connectivity_plus
+
+  - name: device_info_plus_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/device_info_plus_aurora
+    original_package: device_info_plus
+
+  - name: package_info_plus_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/package_info_plus_aurora
+    original_package: package_info_plus
+
+  - name: sensors_plus_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/sensors_plus_aurora
+    original_package: sensors_plus
+
+  - name: share_plus_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/share_plus_aurora
+    original_package: share_plus
+
+  - name: push_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/push_aurora
+    original_package: push
+
+  - name: qr_code_scanner_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/qr_code_scanner_aurora
+    original_package: qr_code_scanner
+
+  - name: sqflite_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/sqflite_aurora
+    original_package: sqflite
+
+  - name: vibration_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/vibration_aurora
+    original_package: vibration
+
+  - name: wakelock_plus_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/wakelock_plus_aurora
+    original_package: wakelock_plus
+
+  - name: workmanager_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/workmanager_aurora
+    original_package: workmanager
