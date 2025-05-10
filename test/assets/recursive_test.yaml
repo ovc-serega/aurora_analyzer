@@ -1,0 +1,14 @@
+name: recursive_test
+description: "Test recursive check"
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.1.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: any
+  flutter_map_location_marker:
