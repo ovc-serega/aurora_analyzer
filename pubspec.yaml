@@ -1,6 +1,6 @@
 name: aurora_analyzer
 description: Package analyzer for Aurora OS
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/ovc-serega/aurora_analyzer
 
 environment:

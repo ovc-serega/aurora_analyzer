@@ -4,6 +4,7 @@ Analyzer for flutter applications for Aurora OS
 ### Main features:
 - Analyzing pubspec files
 - Analyzing pubspec package for pub.dev
+- Recursive analysis to check packages for dependency on plugins
 - Checking the availability of plugins for the Aurora OS
 - Report generation
 
@@ -27,7 +28,7 @@ dart run lib/main.dart -p --path <package_name>
  - `-o` - Generating a report in md format
 
 
- ## Example report
+## Example report
  ```
 # App: test
 
