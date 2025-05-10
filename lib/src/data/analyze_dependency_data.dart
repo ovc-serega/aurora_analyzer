@@ -1,3 +1,5 @@
+import 'package:pubspec_parse/pubspec_parse.dart';
+
 import 'avrora_data.dart';
 
 /// Базовый класс для проверренной зависимости
@@ -20,14 +22,18 @@ sealed class CheckedDependency {
 
 /// Данные пакета
 class PackageDependency extends CheckedDependency {
-  PackageDependency({
-    required super.name,
-    required super.path,
-  });
+  /// pubspec пакета для рекурсивного анализа
+  Pubspec pubspec;
+
+  PackageDependency(
+      {required super.name, required super.path, required this.pubspec});
 }
 
 /// Данные плагина
 class PluginDependency extends CheckedDependency {
+  /// pubspec пакета для рекурсивного анализа
+  Pubspec pubspec;
+
   /// Реализация пакета для Авроры
   AuroraPackage? _auroraPackage;
   set auroraPackage(AuroraPackage auroraPackage) =>
@@ -36,7 +42,7 @@ class PluginDependency extends CheckedDependency {
   /// Имеет ли данные об реализации под Аврору
   bool get hasAuroraImpl => _auroraPackage != null;
 
-  PluginDependency({required super.name, required super.path});
+  PluginDependency({required super.name, required super.path, required this.pubspec});
 
   @override
   List<String> toList() {
@@ -51,14 +57,30 @@ class PluginDependency extends CheckedDependency {
 
 /// Данные пакета с зависимотями от плагинов
 class PackageDependOfPlugin extends CheckedDependency {
-  // Список плагинов с сылками от которых имеется зависимость
-  List<(String, String)> plugins = [];
-  PackageDependOfPlugin({required super.name, required super.path});
+  // Список плагинов с зависимостями
+  List<List<CheckedDependency>> plugins = [];
+  PackageDependOfPlugin({
+    required super.name,
+    required super.path,
+    required this.plugins,
+  });
 
-// TODO добавить вывод пакетов для анализа далее
+  factory PackageDependOfPlugin.fromPackage(
+      PackageDependency dependency, List<List<CheckedDependency>> plugins) {
+    return PackageDependOfPlugin(
+      name: dependency.name,
+      path: dependency.path,
+      plugins: plugins,
+    );
+  }
+
   @override
   List<String> toList() {
-    return super.toList()..add("-");
+    var buffer = StringBuffer();
+    for (var pluginPath in plugins) {
+      buffer.writeln(pluginPath.map((d) => d.name).join(' <- '));
+    }
+    return super.toList()..add(buffer.toString());
   }
 }
 

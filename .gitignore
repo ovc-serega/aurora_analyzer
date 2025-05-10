@@ -5,4 +5,4 @@ bin/
 .dart_tool/
 doc/
 pubspec.lock
-test_report.md
+*_report.md
