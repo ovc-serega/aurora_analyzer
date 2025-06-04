@@ -81,13 +81,15 @@ aurora_packages:
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_file_picker_aurora
     original_package: file_picker
 
-  - name: flutter_image_picker_aurora
-    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_image_picker_aurora
-    original_package: image_picker
+  # Moved to SDK
+  # - name: flutter_image_picker_aurora
+  #   url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_image_picker_aurora
+  #   original_package: image_picker
 
-  - name: flutter_selector_aurora
-    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_selector_aurora
-    original_package: file_selector
+  # Moved to SDK
+  # - name: flutter_selector_aurora
+  #   url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_selector_aurora
+  #   original_package: file_selector
 
   - name: battery_plus_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/battery_plus_aurora
