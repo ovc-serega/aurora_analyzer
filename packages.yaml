@@ -138,3 +138,8 @@ aurora_packages:
   - name: workmanager_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/workmanager_aurora
     original_package: workmanager
+    
+  - name: image_cropper_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/image_cropper_aurora
+    original_package: image_cropper
+    
