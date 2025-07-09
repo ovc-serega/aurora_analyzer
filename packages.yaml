@@ -142,4 +142,8 @@ aurora_packages:
   - name: image_cropper_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/image_cropper_aurora
     original_package: image_cropper
+
+  - name: image_gallery_saver_plus_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/image_gallery_saver_plus_aurora
+    original_package: image_gallery_saver_plus
     
