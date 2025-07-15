@@ -146,4 +146,8 @@ aurora_packages:
   - name: image_gallery_saver_plus_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/image_gallery_saver_plus_aurora
     original_package: image_gallery_saver_plus
+
+  - name: native_device_orientation_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/native_device_orientation_aurora
+    original_package: native_device_orientation
     
