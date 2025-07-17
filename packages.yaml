@@ -150,4 +150,7 @@ aurora_packages:
   - name: native_device_orientation_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/native_device_orientation_aurora
     original_package: native_device_orientation
-    
+
+  - name: flutter_callkit_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_callkit_aurora
+    original_package: flutter_callkit_incoming
