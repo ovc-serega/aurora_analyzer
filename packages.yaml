@@ -32,6 +32,14 @@ aurora_packages:
     url: sdk
     original_package: webview_flutter_aurora
 
+  - name: workmanager_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter/-/tree/stable/packages/workmanager_aurora
+    original_package: workmanager
+
+  - name: audioplayers_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter/-/tree/stable/packages/audioplayers_aurora
+    original_package: audioplayers
+
   # community plugins
   - name: audioplayers_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/audioplayers_aurora
@@ -81,16 +89,6 @@ aurora_packages:
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_file_picker_aurora
     original_package: file_picker
 
-  # Moved to SDK
-  # - name: flutter_image_picker_aurora
-  #   url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_image_picker_aurora
-  #   original_package: image_picker
-
-  # Moved to SDK
-  # - name: flutter_selector_aurora
-  #   url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_selector_aurora
-  #   original_package: file_selector
-
   - name: battery_plus_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/battery_plus_aurora
     original_package: battery_plus
@@ -134,10 +132,6 @@ aurora_packages:
   - name: wakelock_plus_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/wakelock_plus_aurora
     original_package: wakelock_plus
-
-  - name: workmanager_aurora
-    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/workmanager_aurora
-    original_package: workmanager
     
   - name: image_cropper_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/image_cropper_aurora
