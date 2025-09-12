@@ -85,9 +85,10 @@ aurora_packages:
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pdfrx_aurora
     original_package: pdfrx
 
-  - name: flutter_file_picker_aurora
-    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_file_picker_aurora
-    original_package: file_picker
+  # Flutter 3.29.2 unsupported  
+  # - name: flutter_file_picker_aurora
+  #   url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/pickers_aurora/-/tree/master/packages/flutter_file_picker_aurora
+  #   original_package: file_picker
 
   - name: battery_plus_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/plus_plugins/-/tree/master/packages/battery_plus_aurora
