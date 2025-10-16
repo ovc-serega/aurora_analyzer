@@ -149,3 +149,8 @@ aurora_packages:
   - name: flutter_callkit_aurora
     url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/flutter_callkit_aurora
     original_package: flutter_callkit_incoming
+
+  - name: disk_space_plus_aurora
+    url: https://gitlab.com/omprussia/flutter/flutter-community-plugins/disk_space_plus_aurora
+    original_package: disk_space_plus
+    
